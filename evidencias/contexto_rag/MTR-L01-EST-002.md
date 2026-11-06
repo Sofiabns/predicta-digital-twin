@@ -7,13 +7,13 @@ Limites usados: temperatura máxima 85 °C e vibração máxima 2.8 mm/s (fonte:
 
 ## Estado atual
 Status operacional: operacional.
-Última leitura (2026-11-06 17:17:00): temperatura 70.6 °C, vibração 1.77 mm/s, corrente 15.63 A, tensão 383.51 V, 1748.0 rpm.
+Última leitura (2026-11-06 18:26:00): temperatura 70.6 °C, vibração 1.77 mm/s, corrente 15.63 A, tensão 383.51 V, 1748.0 rpm.
 Últimas 100 leituras: temperatura média 70.5 °C (máx. 80.2), vibração média 1.53 mm/s (máx. 1.79).
 
 ## Histórico de eventos
-Evento 2 (2026-11-06 20:18:49) - ALERTA, situação resolvido, 1 ocorrência(s). Temperatura 80.2°C está próxima do limite de 85°C.
-Diagnóstico: Ativo MTR-L01-EST-002 (ABB M3AA 132M): Temperatura 80.2°C está próxima do limite de 85°C. Temperatura acima do limite costuma vir de sobrecarga, ventilação obstruída ou alimentação elétrica fora da faixa.
-Ação recomendada: Programar a intervenção dentro do prazo: Reduzir a carga operacional e confirmar se a corrente está acima da nominal da placa. Inspecionar aletas e entrada de ar da tampa defletora; limpar com ar comprimido se houver sujeira.. Encerrado em 2026-11-06 20:19:17: Normalizado automaticamente após 3 leituras consecutivas dentro dos limites
+Evento 2 (2026-11-06 21:28:18) - ALERTA, situação resolvido, 1 ocorrência(s). Temperatura 80.2°C está próxima do limite de 85°C.
+Diagnóstico: Carga demandada no eixo é superior à nominal, causando o aquecimento anormal.
+Ação recomendada: Reduzir a carga operacional e confirmar se a corrente está acima da nominal da placa.. Encerrado em 2026-11-06 21:28:42: Normalizado automaticamente após 3 leituras consecutivas dentro dos limites
 
 ## Manutenções
-Ordem 2: preventiva, concluida, prioridade media, prevista para 2026-11-09 20:18:49.
+Ordem 2: preventiva, concluida, prioridade media, prevista para 2026-11-09 21:28:18.

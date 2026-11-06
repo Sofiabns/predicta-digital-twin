@@ -1,6 +1,6 @@
 # Evidências de execução ponta a ponta - Sprint 4
 
-Gerado em 06/11/2026 17:20:06 a partir do banco `predicta_evidencia.db` e do log `logs/execucao.jsonl`.
+Gerado em 06/11/2026 18:29:36 a partir do banco `predicta_evidencia.db` e do log `logs/execucao.jsonl`.
 
 ## 1. Resultado das verificações de integridade
 
@@ -21,50 +21,50 @@ Gerado em 06/11/2026 17:20:06 a partir do banco `predicta_evidencia.db` e do log
 
 ### Evento 1 - MTR-L01-BOM-001 (CRITICO, resolvido)
 
-1. **Alerta detectado** em 2026-11-06 17:18:19. Leitura que motivou a classificação: 2026-08-25 06:30:00 | 88.11 °C | 5.03 mm/s | 15.07 A | 384.72 V.
+1. **Alerta detectado** em 2026-11-06 18:27:55. Leitura que motivou a classificação: 2026-08-25 06:30:00 | 88.11 °C | 5.03 mm/s | 15.07 A | 384.72 V.
    Temperatura 88.1°C excede o limite de 85°C. Vibração 5.03 mm/s excede o limite de 2.8 mm/s (zona D da ISO 10816-3).
 2. **Status do ativo:** operacional→critico; critico→manutencao; manutencao→operacional.
 3. **Recomendação técnica** (origem: llm+rag; 9 procedimentos, 4 referências):
-   - Diagnóstico: Sobrecarga severa combinada com desalinhamento ou falta grave de lubrificação nos mancais.
+   - Diagnóstico: Alta Temperatura (acima da classe) combinada com Vibração alta, indicando sobrecarga severa com desalinhamento ou falta grave de lubrificação nos mancais.
    - Ação: Parar a máquina, drenar a graxa velha, re-lubrificar mancais e checar alinhamento a laser.
 4. **Encaminhamento:** ordem #1 (corretiva, urgente) para Equipe de Manutenção.
-5. **Encerramento:** 2026-11-06 17:19:09, por tecnico:tecnico.turno_a. Resolvido por tecnico.turno_a: Realinhado o eixo a laser e trocado o rolamento do lado acoplado; vibração normalizada.
+5. **Encerramento:** 2026-11-06 18:28:40, por tecnico:tecnico.turno_a. Resolvido por tecnico.turno_a: Realinhado o eixo a laser e trocado o rolamento do lado acoplado; vibração normalizada.
    Linha do tempo: abertura(pendente) > encaminhamento(encaminhado) > atendimento(em_atendimento) > resolucao(resolvido).
 
 ### Evento 2 - MTR-L01-EST-002 (ALERTA, resolvido)
 
-1. **Alerta detectado** em 2026-11-06 17:18:49. Leitura que motivou a classificação: 2026-11-06 15:27:00 | 80.2 °C | 1.74 mm/s | 14.49 A | 384.48 V.
+1. **Alerta detectado** em 2026-11-06 18:28:18. Leitura que motivou a classificação: 2026-11-06 16:36:00 | 80.2 °C | 1.74 mm/s | 14.49 A | 384.48 V.
    Temperatura 80.2°C está próxima do limite de 85°C.
 2. **Status do ativo:** operacional→atencao; atencao→operacional.
-3. **Recomendação técnica** (origem: regras+rag; 4 procedimentos, 4 referências):
-   - Diagnóstico: Ativo MTR-L01-EST-002 (ABB M3AA 132M): Temperatura 80.2°C está próxima do limite de 85°C. Temperatura acima do limite costuma vir de sobrecarga, ventilação obstruída ou alimentação elétrica fora da faixa.
-   - Ação: Programar a intervenção dentro do prazo: Reduzir a carga operacional e confirmar se a corrente está acima da nominal da placa. Inspecionar aletas e entrada de ar da tampa defletora; limpar com ar comprimido se houver sujeira.
+3. **Recomendação técnica** (origem: llm+rag; 4 procedimentos, 4 referências):
+   - Diagnóstico: Carga demandada no eixo é superior à nominal, causando o aquecimento anormal.
+   - Ação: Reduzir a carga operacional e confirmar se a corrente está acima da nominal da placa.
 4. **Encaminhamento:** ordem #2 (preventiva, media) para Equipe de Manutenção.
-5. **Encerramento:** 2026-11-06 17:19:17, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
+5. **Encerramento:** 2026-11-06 18:28:42, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
    Linha do tempo: abertura(pendente) > encaminhamento(encaminhado) > resolucao(resolvido).
 
 ### Evento 3 - MTR-UTIL-EXA-004 (CRITICO, resolvido)
 
-1. **Alerta detectado** em 2026-11-06 17:19:06. Leitura que motivou a classificação: 2026-11-06 15:57:00 | 71.0 °C | 2.78 mm/s | 14.19 A | 382.51 V.
+1. **Alerta detectado** em 2026-11-06 18:28:36. Leitura que motivou a classificação: 2026-11-06 17:06:00 | 71.0 °C | 2.78 mm/s | 14.19 A | 382.51 V.
    Vibração 2.78 mm/s excede o limite de 2.5 mm/s (zona B da ISO 10816-3).
 2. **Status do ativo:** operacional→atencao; atencao→critico; critico→operacional.
 3. **Recomendação técnica** (origem: llm+rag; 4 procedimentos, 4 referências):
    - Diagnóstico: Desalinhamento mecânico do eixo com a carga.
    - Ação: Usar alinhador a laser para corrigir alinhamento de base.
 4. **Encaminhamento:** ordem #3 (corretiva, urgente) para Equipe de Manutenção.
-5. **Encerramento:** 2026-11-06 17:19:46, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
+5. **Encerramento:** 2026-11-06 18:29:14, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
    Linha do tempo: abertura(pendente) > encaminhamento(encaminhado) > escalonamento(encaminhado) > resolucao(resolvido).
 
 ### Evento 4 - MTR-ENV-TRP-005 (ALERTA, resolvido)
 
-1. **Alerta detectado** em 2026-11-06 17:19:40. Leitura que motivou a classificação: 2026-11-06 16:27:00 | 64.61 °C | 1.19 mm/s | 15.73 A | 352.0 V.
+1. **Alerta detectado** em 2026-11-06 18:29:09. Leitura que motivou a classificação: 2026-11-06 17:36:00 | 64.61 °C | 1.19 mm/s | 15.73 A | 352.0 V.
    Tensão 352.0 V fora da faixa de 361–399 V (desvio de 7.4% sobre a nominal de 380 V).
 2. **Status do ativo:** operacional→atencao; atencao→operacional.
 3. **Recomendação técnica** (origem: llm+rag; 3 procedimentos, 4 referências):
-   - Diagnóstico: Desvio de 7.4% na tensão, fora da faixa de 361–399 V, indicando falta de tensão ou tensão muito baixa.
-   - Ação: A equipe elétrica deve verificar a rede, pois subtensão ou sobretensão elevam a corrente e aquecem as bobinas.
+   - Diagnóstico: Desvio de tensão na entrada do motor, tendo a tensão 352,0 V fora da faixa de 361–399 V, com desvio de 7,4% sobre a nominal de 380 V.
+   - Ação: A equipe elétrica deve verificar a rede para subtensão ou sobretensão.
 4. **Encaminhamento:** ordem #4 (preventiva, media) para Equipe de Manutenção.
-5. **Encerramento:** 2026-11-06 17:19:58, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
+5. **Encerramento:** 2026-11-06 18:29:28, por RPA_PREDICTA. Normalizado automaticamente após 3 leituras consecutivas dentro dos limites.
    Linha do tempo: abertura(pendente) > encaminhamento(encaminhado) > resolucao(resolvido).
 
 ## 3. Status final dos ativos
@@ -108,7 +108,7 @@ Gerado em 06/11/2026 17:20:06 a partir do banco `predicta_evidencia.db` e do log
 
 ## 6. Modo de execução
 
-- Recomendações geradas: 5 (llm+rag, regras+rag)
+- Recomendações geradas: 5 (llm+rag)
 - Busca na base de conhecimento: semantico
 - Contexto climático: obtido
 

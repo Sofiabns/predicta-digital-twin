@@ -7,7 +7,7 @@ Limites usados: temperatura máxima 90 °C e vibração máxima 3 mm/s (fonte: c
 
 ## Estado atual
 Status operacional: manutencao.
-Última leitura (2026-11-06 17:17:00): temperatura 64.06 °C, vibração 1.18 mm/s, corrente 15.58 A, tensão 379.8 V, 1737.0 rpm.
+Última leitura (2026-11-06 18:26:00): temperatura 64.06 °C, vibração 1.18 mm/s, corrente 15.58 A, tensão 379.8 V, 1737.0 rpm.
 Últimas 100 leituras: temperatura média 64.6 °C (máx. 72.0), vibração média 1.2 mm/s (máx. 1.87).
 
 ## Histórico de eventos
