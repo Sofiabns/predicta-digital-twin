@@ -15,6 +15,8 @@
 | Vinícius Adrian Siqueira de Oliveira   | 564962 |
 | Felipe de Oliveira Cabral              | 561720 |
 
+**Vídeo de demonstração:** [https://youtu.be/rNTP1NxeL6U](https://youtu.be/rNTP1NxeL6U)
+
 ---
 
 ## 📑 Sumário
@@ -45,7 +47,7 @@ A cada ciclo, o Predicta lê a telemetria dos motores, aplica as regras, **atual
 
 Não é preciso instalar Ollama, FAISS nem o dashboard para ver o fluxo completo.
 
-**Opção A, Google Colab:** abra `notebooks/Predicta_Sprint4_Colab.ipynb` e execute as células em ordem. O notebook já está salvo com as saídas de uma execução.
+**Opção A, Google Colab:** abra `notebooks/Predicta_Sprint4_Colab.ipynb` e execute as células em ordem. Na primeira célula de código, preencha `REPO_URL` com o endereço deste repositório (ele precisa ser público) ou, se preferir, envie o `.zip` do projeto quando o notebook pedir. O notebook já está salvo com as saídas de uma execução **sem IA generativa** (no Colab não há Ollama): as recomendações saem das regras e dos manuais, com busca léxica.
 
 **Opção B, computador local:**
 
@@ -210,6 +212,8 @@ python scripts/validar_cs04.py          # 10 verificações de integridade
 python -m pytest tests -q               # 42 testes (25 novos da Sprint 4: 8 de regras e 17 de ciclo de vida, resiliência e ponta a ponta)
 ```
 
+> **Windows:** se o pytest acusar `PermissionError: Acesso negado` na pasta temporária do sistema, rode `python -m pytest tests -q --basetemp=.pytest_tmp`. O problema é de permissão da pasta do Windows, não do código.
+
 ---
 
 ## Evidências de execução
@@ -278,6 +282,7 @@ O checklist detalhado está em [`docs/CS04_CHECKLIST_ADERENCIA.md`](docs/CS04_CH
 
 - **IA generativa é opcional.** O Ollama melhora a redação do diagnóstico, mas a recomendação (passos, prazos e referências) vem das regras e dos manuais. Assim, o fluxo nunca fica parado por causa da IA e a origem de cada recomendação fica gravada (`llm+rag`, `regras+rag` ou `regras`).
 - **As evidências incluídas no repositório** foram geradas com Ollama (llama3.2) e busca semântica (FAISS + all-MiniLM-L6-v2). Sem esses recursos, o pipeline continua funcionando com regras e busca léxica, e a origem de cada recomendação fica registrada.
+- **Evidências do repositório × notebook.** A pasta `evidencias/` foi gerada localmente, com IA (`llm+rag`) e busca semântica. O notebook do Colab mostra a mesma demonstração no modo sem IA (`regras+rag`), que roda sem instalar nada. O fluxo, as regras e as verificações são os mesmos; muda apenas quem redige o texto do diagnóstico.
 - **Catálogo do fabricante.** O catálogo local é uma amostra didática; os valores de ABB M3AA, Siemens SIMOTICS SD e Baldor Super-E foram acrescentados para cobrir todos os motores da planta e são ilustrativos. Em produção, aponte `CATALOGO_URL` para a fonte real.
 - **Status por leitura mais recente.** A classificação usa a última leitura de cada ativo. Para reduzir alarmes falsos, o encerramento exige 3 leituras normais seguidas (configurável).
 - **E-mail simulado.** O envio grava um HTML em `logs/notificacoes/`. Trocar por SMTP exige mexer só em `notificacao_service.py`.
