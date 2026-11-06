@@ -1,0 +1,6 @@
+codigo_motor,tag,planta_codigo,planta_nome,area_codigo,area_nome,linha_codigo,linha_nome,localizacao_codigo,localizacao_descricao,coordenada_x,coordenada_y,status_operacional
+MTR-001,MTR-L01-BOM-001,PLT-PRD-01,Planta Produto Alpha,ZNA-L01,Zona Linha 1,LIN-BOM,Secao Bombeamento,LOC-B01-01,Bombas linha 1 - pedestal A,12.5,38.2,operacional
+MTR-002,MTR-L01-EST-002,PLT-PRD-01,Planta Produto Alpha,ZNA-L01,Zona Linha 1,LIN-EST,Secao Estamparia,LOC-E01-01,Prensa 400T - lado norte,22.0,41.0,atencao
+MTR-003,MTR-L02-CMP-003,PLT-PRD-01,Planta Produto Alpha,ZNA-L02,Zona Linha 2,LIN-CMP,Secao Compressores,LOC-C02-01,Sala de ar comprimido,55.3,18.7,manutencao
+MTR-004,MTR-UTIL-EXA-004,PLT-PRD-01,Planta Produto Alpha,ZNA-UTI,Zona Utilidades,LIN-EXA,Secao Exaustao,LOC-U01-01,Torre exaustao hall B,8.1,12.4,operacional
+MTR-005,MTR-ENV-TRP-005,PLT-PRD-01,Planta Produto Alpha,ZNA-ENV,Zona Envasamento,LIN-TRP,Secao Transportadores,LOC-T01-01,Transportador principal,33.6,27.9,critico

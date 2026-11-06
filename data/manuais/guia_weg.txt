@@ -1,0 +1,31 @@
+[GUIA DE TROUBLESHOOTING RÁPIDO PARA CHÃO DE FÁBRICA - MOTORES TRIFÁSICOS WEG]
+
+Este guia deve ser usado pelas equipes de manutenção de campo da Predicta.
+
+SINTOMA 1: O MOTOR NÃO PARTE
+Causa 1: Falta de tensão ou tensão muito baixa.
+Ação: Medir a tensão (V) nos terminais do motor. Deve estar na faixa (380V +/- 5%).
+Causa 2: Bobina interrompida ou em curto.
+Ação: Medir resistência ôhmica das bobinas.
+Causa 3: Rolamento travado.
+Ação: Girar o eixo manualmente. Se houver resistência pesada, substituir o rolamento danificado.
+
+SINTOMA 2: MOTOR VIBRANDO EXCESSIVAMENTE (Alerta ou Crítico > 2.8 mm/s)
+Causa 1: Desalinhamento mecânico do eixo com a carga.
+Ação: Usar alinhador a laser para corrigir alinhamento de base.
+Causa 2: Problema na fundação (pé manco).
+Ação: Checar calços de nivelamento nos pés do motor, fixar parafusos soltos.
+Causa 3: Fim da vida útil do rolamento (Vibração de Alta Frequência).
+Ação: Trocar o rolamento IMEDIATAMENTE (SKF ou FAG homologado).
+
+SINTOMA 3: AQUECIMENTO ANORMAL (Temperatura subindo linearmente > 80°C)
+Causa 1: Carga demandada no eixo é superior à nominal. (Corrente (A) ficará acima da Nominal da placa).
+Ação: Avaliar necessidade de redimensionar o motor ou reduzir a carga da máquina (esteira/bomba).
+Causa 2: Refrigeração obstruída (Frequente em ambientes empoeirados).
+Ação: Soprar ar comprimido nas aletas externas. Limpar a entrada de ar da tampa defletora traseira.
+
+SINTOMA 4: QUEDA DE ROTAÇÃO (Baixo RPM)
+Causa: Escorregamento excessivo devido a subtensão severa ou sobrecarga mecânica pesada. Se um motor de 1750 RPM cai para 1700 RPM constante, ele está sobrecarregado.
+Ação: Checar inversor de frequência (VFD) ou soft-starter para possíveis falhas de parametrização de torque.
+
+DICA DE OURO: Sempre correlacionar a Vibração com a Temperatura. Se ambas estouraram o limite do catálogo, pare a linha imediatamente. O motor está prestes a fundir ou travar catastroficamente.

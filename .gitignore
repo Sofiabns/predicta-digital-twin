@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Variáveis de ambiente (SEGREDOS)
+.env
+.env.local
+.env.*.local
+
+# Banco de dados (gerado)
+database/*.db
+database/*.db-journal
+database/*.db-shm
+database/*.db-wal
+database/*.sqlite
+database/*.sqlite3
+
+# Logs
+logs/*.log
+logs/*.json
+!logs/.gitkeep
+
+# Testes e coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Dados
+# Dados gerados pelo pipeline (não versionar)
+data/raw/*.csv
+data/processed/*.csv
+data/raw/placas_extraidas/*.json
+data/processed/placas_extraidas/*.json
+
+# Mas mantém os .gitkeep pra preservar as pastas vazias
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Banco de dados local
+database/motores.db
+
+# Logs
+
+
+# Sprint 4: dados gerados em execução (as evidências oficiais ficam em evidencias/)
+logs/*.jsonl
+logs/notificacoes/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/quarentena/
+data/rag/operacional/
+.pytest_cache/

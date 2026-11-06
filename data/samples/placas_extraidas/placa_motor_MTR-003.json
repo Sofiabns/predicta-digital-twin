@@ -1,0 +1,15 @@
+{
+  "codigo_motor": "MTR-003",
+  "fabricante": "Siemens",
+  "modelo": "SIMOTICS SD",
+  "numero_serie": "SN-SIE-993341",
+  "potencia": 18.5,
+  "tensao_nominal": 380.0,
+  "corrente_nominal": 34.0,
+  "rpm_nominal": 3600.0,
+  "frequencia": 60.0,
+  "fator_servico": 1.25,
+  "rendimento": 93.1,
+  "origem_imagem": "samples/placas/foto_placa_mtr003_simulada.png",
+  "confianca_extracao": 0.91
+}

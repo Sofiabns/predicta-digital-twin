@@ -1,0 +1,121 @@
+id,run_id,ciclo,etapa,status,duracao_ms,detalhes_json,erro,criado_em
+1,run_20261106_171724_e34d46,0,preparo,ok,2888,{},,2026-11-06 20:18:22
+2,run_20261106_171724_e34d46,0,telemetria,ok,0,"{""arquivos"": 0, ""observacao"": ""carga histórica: sem simulação""}",,2026-11-06 20:18:22
+3,run_20261106_171724_e34d46,0,cadastro,ok,1396,"{""associacoes"": 5, ""placas"": 3}",,2026-11-06 20:18:22
+4,run_20261106_171724_e34d46,0,catalogo,ok,2757,"{""atualizado"": true, ""modelos"": 6}",,2026-11-06 20:18:22
+5,run_20261106_171724_e34d46,0,coleta,ok,1083,"{""arquivos"": 5, ""leituras_inseridas"": 5000, ""quarentena"": 0}",,2026-11-06 20:18:22
+6,run_20261106_171724_e34d46,0,analise,ok,17989,"{""leituras"": 5000, ""normais"": 4945, ""alertas"": 25, ""criticas"": 30, ""anomalias_persistidas"": 89}",,2026-11-06 20:18:22
+7,run_20261106_171724_e34d46,0,avaliacao,ok,30606,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 1, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 3, ""falhas"": 0, ""notificacoes"": 1, ""degradado"": false}",,2026-11-06 20:18:22
+8,run_20261106_171724_e34d46,0,contexto_rag,ok,756,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:18:22
+9,run_20261106_171724_e34d46,1,preparo,ok,384,{},,2026-11-06 20:18:32
+10,run_20261106_171724_e34d46,1,telemetria,ok,749,"{""arquivos"": 5}",,2026-11-06 20:18:32
+11,run_20261106_171724_e34d46,1,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:18:32
+12,run_20261106_171724_e34d46,1,catalogo,ok,27,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:18:32
+13,run_20261106_171724_e34d46,1,coleta,ok,2955,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:18:32
+14,run_20261106_171724_e34d46,1,analise,ok,1901,"{""leituras"": 5, ""normais"": 4, ""alertas"": 0, ""criticas"": 1, ""anomalias_persistidas"": 2}",,2026-11-06 20:18:32
+15,run_20261106_171724_e34d46,1,avaliacao,ok,2692,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:18:32
+16,run_20261106_171724_e34d46,1,contexto_rag,ok,767,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:18:32
+17,run_20261106_171724_e34d46,2,preparo,ok,986,{},,2026-11-06 20:18:39
+18,run_20261106_171724_e34d46,2,telemetria,ok,699,"{""arquivos"": 5}",,2026-11-06 20:18:39
+19,run_20261106_171724_e34d46,2,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:18:39
+20,run_20261106_171724_e34d46,2,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:18:39
+21,run_20261106_171724_e34d46,2,coleta,ok,2914,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:18:39
+22,run_20261106_171724_e34d46,2,analise,ok,571,"{""leituras"": 5, ""normais"": 4, ""alertas"": 0, ""criticas"": 1, ""anomalias_persistidas"": 2}",,2026-11-06 20:18:39
+23,run_20261106_171724_e34d46,2,avaliacao,ok,844,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:18:39
+24,run_20261106_171724_e34d46,2,contexto_rag,ok,657,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:18:39
+25,run_20261106_171724_e34d46,3,preparo,ok,245,{},,2026-11-06 20:18:51
+26,run_20261106_171724_e34d46,3,telemetria,ok,190,"{""arquivos"": 5}",,2026-11-06 20:18:51
+27,run_20261106_171724_e34d46,3,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:18:51
+28,run_20261106_171724_e34d46,3,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:18:51
+29,run_20261106_171724_e34d46,3,coleta,ok,814,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:18:51
+30,run_20261106_171724_e34d46,3,analise,ok,1064,"{""leituras"": 5, ""normais"": 3, ""alertas"": 1, ""criticas"": 1, ""anomalias_persistidas"": 3}",,2026-11-06 20:18:51
+31,run_20261106_171724_e34d46,3,avaliacao,ok,8605,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 1, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 1, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:18:51
+32,run_20261106_171724_e34d46,3,contexto_rag,ok,726,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:18:51
+33,run_20261106_171724_e34d46,4,preparo,ok,665,{},,2026-11-06 20:18:56
+34,run_20261106_171724_e34d46,4,telemetria,ok,199,"{""arquivos"": 5}",,2026-11-06 20:18:56
+35,run_20261106_171724_e34d46,4,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:18:56
+36,run_20261106_171724_e34d46,4,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:18:56
+37,run_20261106_171724_e34d46,4,coleta,ok,830,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:18:56
+38,run_20261106_171724_e34d46,4,analise,ok,459,"{""leituras"": 5, ""normais"": 4, ""alertas"": 0, ""criticas"": 1, ""anomalias_persistidas"": 2}",,2026-11-06 20:18:56
+39,run_20261106_171724_e34d46,4,avaliacao,ok,812,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:18:56
+40,run_20261106_171724_e34d46,4,contexto_rag,ok,739,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:18:56
+41,run_20261106_171724_e34d46,5,preparo,ok,256,{},,2026-11-06 20:19:09
+42,run_20261106_171724_e34d46,5,telemetria,ok,179,"{""arquivos"": 5}",,2026-11-06 20:19:09
+43,run_20261106_171724_e34d46,5,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:09
+44,run_20261106_171724_e34d46,5,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:09
+45,run_20261106_171724_e34d46,5,coleta,ok,807,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:09
+46,run_20261106_171724_e34d46,5,analise,ok,353,"{""leituras"": 5, ""normais"": 4, ""alertas"": 1, ""criticas"": 0, ""anomalias_persistidas"": 1}",,2026-11-06 20:19:09
+47,run_20261106_171724_e34d46,5,avaliacao,ok,10817,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 1, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 1, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:09
+48,run_20261106_171724_e34d46,5,contexto_rag,ok,710,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 26}",,2026-11-06 20:19:09
+49,run_20261106_171724_e34d46,6,preparo,ok,890,{},,2026-11-06 20:19:24
+50,run_20261106_171724_e34d46,6,telemetria,ok,749,"{""arquivos"": 6}",,2026-11-06 20:19:24
+51,run_20261106_171724_e34d46,6,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:24
+52,run_20261106_171724_e34d46,6,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:24
+53,run_20261106_171724_e34d46,6,coleta,degradado,3004,"{""arquivos"": 6, ""leituras_inseridas"": 4, ""quarentena"": 2, ""degradado"": true}",,2026-11-06 20:19:24
+54,run_20261106_171724_e34d46,6,analise,ok,1097,"{""leituras"": 4, ""normais"": 3, ""alertas"": 0, ""criticas"": 1, ""anomalias_persistidas"": 1}",,2026-11-06 20:19:24
+55,run_20261106_171724_e34d46,6,avaliacao,ok,7880,"{""avaliados"": 4, ""sem_leitura_nova"": 1, ""eventos_abertos"": 0, ""escalonados"": 1, ""resolvidos"": 1, ""status_alterados"": 2, ""falhas"": 0, ""notificacoes"": 1, ""degradado"": false}",,2026-11-06 20:19:24
+56,run_20261106_171724_e34d46,6,contexto_rag,ok,695,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:24
+57,run_20261106_171724_e34d46,7,preparo,ok,565,{},,2026-11-06 20:19:27
+58,run_20261106_171724_e34d46,7,telemetria,ok,179,"{""arquivos"": 5}",,2026-11-06 20:19:27
+59,run_20261106_171724_e34d46,7,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:27
+60,run_20261106_171724_e34d46,7,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:27
+61,run_20261106_171724_e34d46,7,coleta,ok,820,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:27
+62,run_20261106_171724_e34d46,7,analise,falha,2,{},RuntimeError: falha simulada na etapa 'analise' (teste de resiliência),2026-11-06 20:19:27
+63,run_20261106_171724_e34d46,7,avaliacao,ok,849,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:27
+64,run_20261106_171724_e34d46,7,contexto_rag,ok,671,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:27
+65,run_20261106_171724_e34d46,8,preparo,ok,278,{},,2026-11-06 20:19:32
+66,run_20261106_171724_e34d46,8,telemetria,ok,185,"{""arquivos"": 4}",,2026-11-06 20:19:32
+67,run_20261106_171724_e34d46,8,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:32
+68,run_20261106_171724_e34d46,8,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:32
+69,run_20261106_171724_e34d46,8,coleta,ok,1083,"{""arquivos"": 4, ""leituras_inseridas"": 4, ""quarentena"": 0}",,2026-11-06 20:19:32
+70,run_20261106_171724_e34d46,8,analise,ok,985,"{""leituras"": 9, ""normais"": 8, ""alertas"": 0, ""criticas"": 1, ""anomalias_persistidas"": 1}",,2026-11-06 20:19:32
+71,run_20261106_171724_e34d46,8,avaliacao,ok,766,"{""avaliados"": 4, ""sem_leitura_nova"": 1, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:32
+72,run_20261106_171724_e34d46,8,contexto_rag,ok,673,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:32
+73,run_20261106_171724_e34d46,9,preparo,ok,257,{},,2026-11-06 20:19:43
+74,run_20261106_171724_e34d46,9,telemetria,ok,445,"{""arquivos"": 5}",,2026-11-06 20:19:43
+75,run_20261106_171724_e34d46,9,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:43
+76,run_20261106_171724_e34d46,9,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:43
+77,run_20261106_171724_e34d46,9,coleta,ok,911,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:43
+78,run_20261106_171724_e34d46,9,analise,ok,422,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:19:43
+79,run_20261106_171724_e34d46,9,avaliacao,ok,8960,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 1, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 1, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:43
+80,run_20261106_171724_e34d46,9,contexto_rag,ok,651,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:43
+81,run_20261106_171724_e34d46,10,preparo,ok,258,{},,2026-11-06 20:19:47
+82,run_20261106_171724_e34d46,10,telemetria,ok,190,"{""arquivos"": 5}",,2026-11-06 20:19:47
+83,run_20261106_171724_e34d46,10,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:47
+84,run_20261106_171724_e34d46,10,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:47
+85,run_20261106_171724_e34d46,10,coleta,ok,832,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:47
+86,run_20261106_171724_e34d46,10,analise,ok,163,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:19:47
+87,run_20261106_171724_e34d46,10,avaliacao,ok,855,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 1, ""status_alterados"": 1, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:47
+88,run_20261106_171724_e34d46,10,contexto_rag,ok,679,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:47
+89,run_20261106_171724_e34d46,11,preparo,ok,257,{},,2026-11-06 20:19:52
+90,run_20261106_171724_e34d46,11,telemetria,ok,180,"{""arquivos"": 5}",,2026-11-06 20:19:52
+91,run_20261106_171724_e34d46,11,cadastro,ok,0,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:52
+92,run_20261106_171724_e34d46,11,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:52
+93,run_20261106_171724_e34d46,11,coleta,ok,798,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:52
+94,run_20261106_171724_e34d46,11,analise,ok,174,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:19:52
+95,run_20261106_171724_e34d46,11,avaliacao,ok,2964,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:52
+96,run_20261106_171724_e34d46,11,contexto_rag,ok,714,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:52
+97,run_20261106_171724_e34d46,12,preparo,ok,319,{},,2026-11-06 20:19:56
+98,run_20261106_171724_e34d46,12,telemetria,ok,211,"{""arquivos"": 5}",,2026-11-06 20:19:56
+99,run_20261106_171724_e34d46,12,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:56
+100,run_20261106_171724_e34d46,12,catalogo,ok,3,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:56
+101,run_20261106_171724_e34d46,12,coleta,ok,899,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:56
+102,run_20261106_171724_e34d46,12,analise,ok,163,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:19:56
+103,run_20261106_171724_e34d46,12,avaliacao,ok,838,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:56
+104,run_20261106_171724_e34d46,12,contexto_rag,ok,686,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:56
+105,run_20261106_171724_e34d46,13,preparo,ok,290,{},,2026-11-06 20:19:59
+106,run_20261106_171724_e34d46,13,telemetria,ok,200,"{""arquivos"": 5}",,2026-11-06 20:19:59
+107,run_20261106_171724_e34d46,13,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:19:59
+108,run_20261106_171724_e34d46,13,catalogo,ok,4,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:19:59
+109,run_20261106_171724_e34d46,13,coleta,ok,1232,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:19:59
+110,run_20261106_171724_e34d46,13,analise,ok,194,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:19:59
+111,run_20261106_171724_e34d46,13,avaliacao,ok,1044,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 1, ""status_alterados"": 1, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:19:59
+112,run_20261106_171724_e34d46,13,contexto_rag,ok,728,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:19:59
+113,run_20261106_171724_e34d46,14,preparo,ok,677,{},,2026-11-06 20:20:05
+114,run_20261106_171724_e34d46,14,telemetria,ok,168,"{""arquivos"": 5}",,2026-11-06 20:20:05
+115,run_20261106_171724_e34d46,14,cadastro,ok,1,"{""associacoes"": 0, ""placas"": 0}",,2026-11-06 20:20:05
+116,run_20261106_171724_e34d46,14,catalogo,ok,3,"{""atualizado"": false, ""motivo"": ""catálogo dentro da validade""}",,2026-11-06 20:20:05
+117,run_20261106_171724_e34d46,14,coleta,ok,1307,"{""arquivos"": 5, ""leituras_inseridas"": 5, ""quarentena"": 0}",,2026-11-06 20:20:05
+118,run_20261106_171724_e34d46,14,analise,ok,153,"{""leituras"": 5, ""normais"": 5, ""alertas"": 0, ""criticas"": 0, ""anomalias_persistidas"": 0}",,2026-11-06 20:20:05
+119,run_20261106_171724_e34d46,14,avaliacao,ok,810,"{""avaliados"": 5, ""sem_leitura_nova"": 0, ""eventos_abertos"": 0, ""escalonados"": 0, ""resolvidos"": 0, ""status_alterados"": 0, ""falhas"": 0, ""notificacoes"": 0, ""degradado"": false}",,2026-11-06 20:20:05
+120,run_20261106_171724_e34d46,14,contexto_rag,ok,633,"{""ativos"": 5, ""documentos_alterados"": 6, ""diretorio"": ""D:\\CS4_RPA\\predicta_sprint4\\data\\rag\\operacional"", ""trechos_operacionais"": 27}",,2026-11-06 20:20:05

@@ -1,0 +1,15 @@
+id,evento_id,status_anterior,status_novo,acao,ator,observacao,status_ativo_anterior,status_ativo_novo,run_id,criado_em
+1,1,,pendente,abertura,RPA_PREDICTA,Evento aberto (CRITICO): Temperatura 88.1°C excede o limite de 85°C. Vibração 5.03 mm/s excede o limite de 2.8 mm/s (zona D da ISO 10816-3).,operacional,critico,run_20261106_171724_e34d46,2026-11-06 20:18:19
+2,1,pendente,encaminhado,encaminhamento,RPA_PREDICTA,Ordem de manutenção #1 gerada e encaminhada a: Equipe de Manutenção,,,run_20261106_171724_e34d46,2026-11-06 20:18:19
+3,2,,pendente,abertura,RPA_PREDICTA,Evento aberto (ALERTA): Temperatura 80.2°C está próxima do limite de 85°C.,operacional,atencao,run_20261106_171724_e34d46,2026-11-06 20:18:49
+4,2,pendente,encaminhado,encaminhamento,RPA_PREDICTA,Ordem de manutenção #2 gerada e encaminhada a: Equipe de Manutenção,,,run_20261106_171724_e34d46,2026-11-06 20:18:49
+5,1,encaminhado,em_atendimento,atendimento,tecnico:tecnico.turno_a,Equipe em campo no pedestal A,critico,manutencao,run_20261106_171724_e34d46,2026-11-06 20:18:52
+6,3,,pendente,abertura,RPA_PREDICTA,Evento aberto (ALERTA): Vibração 2.31 mm/s está próxima do limite de 2.5 mm/s (zona B da ISO 10816-3).,operacional,atencao,run_20261106_171724_e34d46,2026-11-06 20:19:06
+7,3,pendente,encaminhado,encaminhamento,RPA_PREDICTA,Ordem de manutenção #3 gerada e encaminhada a: Equipe de Manutenção,,,run_20261106_171724_e34d46,2026-11-06 20:19:06
+8,1,em_atendimento,resolvido,resolucao,tecnico:tecnico.turno_a,Resolvido por tecnico.turno_a: Realinhado o eixo a laser e trocado o rolamento do lado acoplado; vibração normalizada.,manutencao,operacional,run_20261106_171724_e34d46,2026-11-06 20:19:09
+9,2,encaminhado,resolvido,resolucao,RPA_PREDICTA,Normalizado automaticamente após 3 leituras consecutivas dentro dos limites,atencao,operacional,run_20261106_171724_e34d46,2026-11-06 20:19:17
+10,3,encaminhado,encaminhado,escalonamento,RPA_PREDICTA,Severidade ALERTA -> CRITICO. Vibração 2.78 mm/s excede o limite de 2.5 mm/s (zona B da ISO 10816-3).,atencao,critico,run_20261106_171724_e34d46,2026-11-06 20:19:23
+11,4,,pendente,abertura,RPA_PREDICTA,Evento aberto (ALERTA): Tensão 352.0 V fora da faixa de 361–399 V (desvio de 7.4% sobre a nominal de 380 V).,operacional,atencao,run_20261106_171724_e34d46,2026-11-06 20:19:40
+12,4,pendente,encaminhado,encaminhamento,RPA_PREDICTA,Ordem de manutenção #4 gerada e encaminhada a: Equipe de Manutenção,,,run_20261106_171724_e34d46,2026-11-06 20:19:40
+13,3,encaminhado,resolvido,resolucao,RPA_PREDICTA,Normalizado automaticamente após 3 leituras consecutivas dentro dos limites,critico,operacional,run_20261106_171724_e34d46,2026-11-06 20:19:46
+14,4,encaminhado,resolvido,resolucao,RPA_PREDICTA,Normalizado automaticamente após 3 leituras consecutivas dentro dos limites,atencao,operacional,run_20261106_171724_e34d46,2026-11-06 20:19:58

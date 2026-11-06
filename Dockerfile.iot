@@ -1,0 +1,20 @@
+FROM python:3.13-slim
+
+WORKDIR /app
+
+# Instala dependências do sistema necessárias para compilação (ex: FAISS, Playwright se usado no backend)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia todo o código do Predicta
+COPY . .
+
+# Variável para apontar corretamente para o db na persistência
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+
+CMD ["python3", "scripts/executar_rpa_integrado.py", "--continuo", "--simular"]

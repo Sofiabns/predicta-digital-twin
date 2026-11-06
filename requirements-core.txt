@@ -1,0 +1,9 @@
+# Dependências mínimas para rodar o pipeline RPA integrado (Colab, CI, demonstração).
+# A IA generativa (Ollama), a busca semântica (FAISS) e o dashboard são opcionais:
+# o pipeline detecta a ausência e usa regras + busca léxica no lugar.
+pandas>=2.0
+numpy>=1.26
+beautifulsoup4>=4.12
+requests>=2.31
+python-dotenv>=1.0
+pytest>=8.0

@@ -1,0 +1,11 @@
+services:
+  predicta-iot:
+    build:
+      context: .
+      dockerfile: Dockerfile.iot
+    container_name: predicta_iot_simulator
+    volumes:
+      - ./data:/app/data
+      - ./database:/app/database
+      - ./logs:/app/logs
+    restart: unless-stopped
